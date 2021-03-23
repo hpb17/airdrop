@@ -33,15 +33,10 @@ let getWeb3 = () => {
                   trustApiName = 'kovan'
                   explorerUrl = 'https://kovan.etherscan.io'
                   break;
-                case "99":
-                  netIdName = 'POA Core'
-                  trustApiName = 'poa'
-                  explorerUrl = 'https://poaexplorer.com'
-                  break;
-                case "77":
-                  netIdName = 'POA Sokol'
-                  trustApiName = 'https://trust-sokol.herokuapp.com'
-                  explorerUrl = 'https://sokol.poaexplorer.com'
+                case "269":
+                  netIdName = 'HPB Network'
+                  trustApiName = 'hpb'
+                  explorerUrl = 'https://hpbscan.org'
                   break;
                 default:
                   netIdName = 'Unknown'
@@ -91,15 +86,10 @@ let getWeb3 = () => {
                 trustApiName = 'kovan'
                 explorerUrl = 'https://kovan.etherscan.io'
                 break;
-              case "99":
-                netIdName = 'POA Core'
-                trustApiName = 'poa'
-                explorerUrl = 'https://poaexplorer.com'
-                break;
-              case "77":
-                netIdName = 'POA Sokol'
-                trustApiName = 'https://trust-sokol.herokuapp.com'
-                explorerUrl = 'https://sokol.poaexplorer.com'
+              case "269":
+                netIdName = 'HPB Network'
+                trustApiName = 'hpb'
+                explorerUrl = 'https://hpbscan.org'
                 break;
               default:
                 netIdName = 'Unknown'
